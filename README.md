@@ -96,3 +96,4 @@ print("R2 Score:", r2_energy)
 <img width="326" height="329" alt="Screenshot 2026-05-13 094105" src="https://github.com/user-attachments/assets/aa6c4377-c258-4b25-8bc6-c2f442aa2f92" />
 
 ## Result:
+The Random Forest model successfully predicted temperature, PM2.5 pollution, and solar radiation using weather sensor data with good accuracy. The system also generated next-step predictions and visual graphs comparing actual vs predicted values and showing feature importance.
