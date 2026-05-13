@@ -10,12 +10,13 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+## Algorithm: 
+```
+1.Load the weather dataset using pandas.
+2.Preprocess the data by handling missing values and sorting by time.
+3.Select features and create lag variables for temperature and PM2.5.
+4.Train Random Forest models to predict temperature and PM2.5 and save the models. 
+```
 ## Program:
 ```
 /*
@@ -92,5 +93,6 @@ print("R2 Score:", r2_energy)
 
 ## Output:
 
+<img width="326" height="329" alt="Screenshot 2026-05-13 094105" src="https://github.com/user-attachments/assets/aa6c4377-c258-4b25-8bc6-c2f442aa2f92" />
 
 ## Result:
